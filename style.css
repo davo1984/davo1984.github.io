@@ -1,0 +1,40 @@
+/* general styles */
+
+html {
+    font-family: Arial, 'sans serif';
+    font-size: 14px;
+    background-color: tan;
+}
+
+body {
+    background-color: ivory;
+    margin: 75px;
+    padding: 30px;
+    border: 0.1em dashed black;
+}
+
+h1 {
+    border: 0.5em black;
+    border-radius: .25%;
+}
+
+h3 {
+    border: .2em red;
+    border-left-radius: .25%;
+}
+
+.clump {
+    padding-left: 35em;
+
+}
+
+.blog {
+    background-color: tan;
+    text-align: center;
+    padding: 1em;
+    border: 0.25em solid rosybrown;
+    width: 5em;
+    height: 3em;
+    border-radius: 100%;
+}
+
