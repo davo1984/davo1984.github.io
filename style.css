@@ -38,3 +38,11 @@ h3 {
     border-radius: 100%;
 }
 
+a:hover {
+    color: brown;
+    text-decoration: underline wavy;
+}
+a:visited {
+    color: rosybrown;
+}
+
