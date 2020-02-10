@@ -50,11 +50,6 @@ a:visited {
     color: rosybrown;
 }
 
-a[href='index.html'] {
+a[title='Home'] {
     color: black;
 }
-
-a#returnHome:hover {
-    color: royalblue;
-}
-
