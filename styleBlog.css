@@ -1,0 +1,102 @@
+/* general styles */
+
+html {
+    font-family: Arial, 'sans serif';
+    font-size: 14px;
+    background-color: tan;
+    background-image: 
+        url('https://www.bing.com/th?id=OHR.BrightonJetty_ZH-CN1526526038_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp')
+        ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    width: 70%;
+    max-width: 960px;
+    margin: 10% auto;  /* was 75px */
+
+    background-color: ivory;
+    opacity: .7;
+    /*
+    background-image: 
+        url('https://www.bing.com/th?id=OHR.BrightonJetty_ZH-CN1526526038_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp')
+        ;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    */
+    padding: 30px;
+    /*border: 0.1em dashed black;*/
+}
+
+h1 {
+    border: 0.5em black;
+    border-radius: .25%;
+}
+
+h3 {
+    border: .2em red;
+}
+
+button {
+    font-size: 18px;
+    line-height: 1.5;
+    width: 15%;
+    border: solid rosybrown;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: tan;
+}
+
+
+div.pmenu {
+    height: 4em;
+    border: 1px solid rosybrown;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+.clump {
+    padding-left: 35em;
+
+}
+
+.blogButtonsFloat {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.blog {
+    background-color: tan;
+    text-align: center;
+    padding: 1em;
+    border: 0.25em solid rosybrown;
+    width: 4em;
+    height: 2em;
+    border-radius: 100%;
+    display: flex;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: rosybrown !important;
+    text-decoration: underline wavy;
+}
+
+a:visited {
+    color: brown;
+}
+
+a[title='Home'] {
+    color: black;
+}
