@@ -100,3 +100,7 @@ a:visited {
 a[title='Home'] {
     color: black;
 }
+
+ul {
+    list-style-type: circle;
+}
