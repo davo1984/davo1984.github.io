@@ -10,11 +10,11 @@ body {
     width: 70%;
     max-width: 960px;
     margin: 10% auto;  /* was 75px */
+    border-radius: 10px;
 
     background-color: ivory;
     background-image: 
-        url('https://www.bing.com/th?id=OHR.BrightonJetty_ZH-CN1526526038_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp')
-        ;
+        url('https://www.bing.com/th?id=OHR.BrightonJetty_ZH-CN1526526038_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -63,6 +63,7 @@ button {
 div.pmenu {
     height: 4em;
     border: 1px solid rosybrown;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -70,7 +71,7 @@ div.pmenu {
 
 .clump {
     margin-left: 75%;
-    border: 1px rosybrown;
+    border: 2px rosybrown;
     border-radius: 10px;
     padding: .8em;
     color: rosybrown;

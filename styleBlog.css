@@ -5,8 +5,7 @@ html {
     font-size: 14px;
     background-color: tan;
     background-image: 
-        url('https://www.bing.com/th?id=OHR.BrightonJetty_ZH-CN1526526038_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp')
-        ;
+        url('https://www.bing.com/th?id=OHR.BrightonJetty_ZH-CN1526526038_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -20,6 +19,7 @@ body {
 
     background-color: ivory;
     opacity: .7;
+    border-radius: 10px;
     /*
     background-image: 
         url('https://www.bing.com/th?id=OHR.BrightonJetty_ZH-CN1526526038_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp')
@@ -56,6 +56,7 @@ button {
 div.pmenu {
     height: 4em;
     border: 1px solid rosybrown;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
