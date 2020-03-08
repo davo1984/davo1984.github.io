@@ -8,7 +8,6 @@ html {
 
 body {
     width: 70%;
-    max-width: 960px;
     margin: 10% auto;  /* was 75px */
     border-radius: 10px;
 
@@ -22,10 +21,11 @@ body {
     padding: 30px;
 }
 
+/********** use bootstrap's card
 .bCard {
     position: relative;
     display: inline-block;
-  }
+}
   
 .bCard-content {
     display: none;
@@ -34,12 +34,12 @@ body {
     min-width: 300px;
     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
     padding: 2em 3em;
-    z-index: auto;  /* make sure this is on top */  
-}              
+    z-index: auto;  /* make sure this is on top *  
+}******/
 
 .bCard:hover .bCard-content {
     display: block;
-  }
+}
 
 h1 {
     border: 0.5em black;
@@ -51,9 +51,9 @@ h3 {
 }
 
 button {
-    font-size: 18px;
+    /*font-size: 18px;
     line-height: 1.5;
-    width: 15%;
+    width: 15%;*/
     border: solid rosybrown;
     border-radius: 10px;
     justify-content: center;
@@ -67,7 +67,7 @@ div.pmenu {
     display: flex;
     align-items: center;
     justify-content: space-around;
-  }
+}
 
 .clump {
     margin-left: 75%;
