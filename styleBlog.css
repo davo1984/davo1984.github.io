@@ -17,11 +17,11 @@ body {
 
     background-color: ivory;
     border-radius: 10px;
-    opacity: .7;
+    opacity: .8;
     padding: 10%;
 }
 
-button {
+/* button {
     border: solid rosybrown;
     border-radius: 10px;
     background-color: tan;
@@ -31,14 +31,14 @@ button {
 div.pmenu {
     border: 1px solid rosybrown;
     border-radius: 10px;
-  }
+  } */
 
-.blog {
+/* .blog {
     background-color: tan;
     border: 0.25em solid rosybrown;
     border-radius: 10px;
-}
-
+} */
+/* 
 a:link {
     color: black;
 }
@@ -54,4 +54,4 @@ a:visited {
 
 a[title='Home'] {
     color: black;
-}
+} */
