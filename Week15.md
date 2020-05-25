@@ -1,0 +1,6 @@
+Week 11 - Main Program - Offsite
+How have you progressed and struggled during the time while building your Final Project?
+Working on my final project has been equal parts wonderful and frustrating. The first week I accomplished everything I planned for myself. The second week my computer completely borked, it had been randomly rebooting but now this had become just too often. I attempted to erase the drive and reinstall everything and it shutdown before I could even finish reinstalling all the dev tools. I picked up a loaner from A-Inc and struggled. Between updating software and coding problems I never completed near as many stories as I felt I should have. This put me WAY behind.
+
+When was the last time your pseudo coded? What has changed in your method from then to now?
+I try to pseudo-code every bit of code I write. Sometimes it is not much, maybe just a wireframe of how I want it to look, a diagram of how the code must flow, or a list of comments in the code of what needs to be done and how. This really does speed up my coding.
