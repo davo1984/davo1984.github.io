@@ -14,81 +14,138 @@
     <!-- week-6 Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-    
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
     <!-- my stylesheet & javascript -->
     <link rel=StyleSheet href='styleHome.css' type='text/css' media=screen>
     <script src="./js/main.js"></script>
 </HEAD>
+
 <BODY>
 
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-12 vh-50 fixed-top">
-                <div class="topnav" id="myTopnav">
-                    <ul class="nav nav-pills text-dark">
-                        <li class="nav-item">
-                            <a href="./index.html" class="navbar-brand active text-dark">David Oliver</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="./index.html" role="button" aria-haspopup="true" aria-expanded="false">Awesome-Inc Bootcamp</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="./WeekOne.html">Pre-WorkWeek 1</a>
-                                <a class="dropdown-item" href="./WeekTwo.html">Pre-WorkWeek 2</a>
-                                <a class="dropdown-item" href="./WeekThree.html">Pre-WorkWeek 3</a>
-                                <a class="dropdown-item" href="./WeekFour.html">Pre-WorkWeek 4</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="./WeekFive.html">Onsite Week 5</a>
-                                <a class="dropdown-item" href="./WeekSix.html">Onsite Week 6</a>
-                                <a class="dropdown-item" href="./WeekSeven.html">Onsite Week 7</a>
-                                <a class="dropdown-item" href="./WeekEight.html">Onsite Week 8</a>
-                                <a class="dropdown-item" href="./WeekNine.html">Onsite Week 9</a>
-                                <!-- <a class="dropdown-item" href="#">Action</a> -->
-                            </div>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="./projects.html" class="nav-link text-dark">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./links.html" class="nav-link text-dark">Links</a>
-                        </li>
-                        <li class="nav-item text-dark">
-                            <a href="#./contact"" class="nav-link disabled">Contact Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#./about"" class="nav-link disabled">About</a>
-                        </li>
-                    </ul>
-                    <!-- <a href="./index-old.html">Awesome-Bootcamp</a> -->
-                       
-                        <a href="javascript:void(0);" class="icon" onclick="myMenuFun()">
-                            <i class="fa fa-bars"></i>
-                        </a>
-                    
+
+            <div class="col-3 m-3 p-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/BouncingBalls.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bouncing Balls Game</h5>
+                        <p class="card-text">Destroy the bouncing balls game. An exercise in Object Oriented Progrmming.
+                        </p>
+                        <a href="https://davo1984.github.io/W1_balls" class="btn btn-primary">Play it!</a>
+                    </div>
                 </div>
             </div>
-        <div class="row">
-            <div class="col-8">
-            </div>
-            <div class="col-4 pull-right px-5">
-                <p id='IDinspiration' class="pull-right mx-5 px-3 rounded">This blog will be refactored like a Louisianian votes on election day:<br>
-                &quot;Early and often&quot;</p>
-            </div>
-        </div>
-        </div>
-    </div>
 
+            <div class="col-3 m-3 p-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/Story.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Silly Story Generator</h5>
+                        <p class="card-text">Basic programming concepts and computational thinking. Learning the
+                            basics such as variables, procedural logic and loops.</p>
+                        <a href="https://davo1984.github.io/W3-Stories/" class="btn btn-primary">Get silly</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 m-3 p-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/Splash.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CSS & HTML</h5>
+                        <p class="card-text">Using CSS and HTML together with images and links to build a splash
+                            page for Mozilla.</p>
+                        <a href="https://davo1984.github.io/W3-splash/" class="btn btn-primary">Feast Your
+                            Eyes</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 m-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/Calculator.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Calculator</h5>
+                        <p class="card-text">A simple Calculator written in JavaScript which performs basic
+                            math functions. Mostly learning about functions, event handling, and more about
+                            objects and OOP.</p>
+                        <a href="https://davo1984.github.io/W3_calculator/" class="btn btn-primary">Calculate</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 m-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/Restaurant.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Restaurant Page</h5>
+                        <p class="card-text">Adding to everything we learned so far with additional </p>
+                        <a href="https://davo1984.github.io/w4-restaurant/" class="btn btn-primary">Absurdist Dining</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 m-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/Heroes.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">SuperHero Facebook</h5>
+                        <p class="card-text">A fun little app where SuperHeroes can add each other to friends and
+                            enemies lists.</p>
+                        <a href="" class="btn btn-primary">SuperHero</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-3 m-3">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/Election.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Elect Bill The Cat</h5>
+                    <p class="card-text">Fun Project pushing our knowledge. I built campaign web page for everybody's
+                        favorite canidate: Bill the Cat!</p>
+                    <a href="#" class="btn btn-primary">Vote for Bill</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-3 m-3">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Honey Do List</h5>
+                    <p class="card-text">React Application implementing CRUD: Create, Read, Update, Delete. All in the form of a "To Do List." Every husband's nightmare.</p>
+                    <a href="" class="btn btn-primary">To Do It</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-3 m-3">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                    <a href="" class="btn btn-primary"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 </BODY>
 
