@@ -1,4 +1,4 @@
 # S20-Blog
- Awesome Inc Bootcamp Blog
+ Projects I have completed for learning coding and web design.
 
-Going to be refactored like Lousiana residents vote: early and often.
+At this point both this projects page and some of the projects themselves are in an unfinished state.
